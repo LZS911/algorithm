@@ -72,7 +72,7 @@ const { writeFile } = Write();
 const args = process.argv.slice(2);
 if (args.length === 0) {
   if (!fs.existsSync(debugConfigPath)) {
-    console.log('缺少调试对象参数...');
+    console.error('缺少调试对象参数...');
     process.exit(1);
   }
   robot.keyTap('d', ['command', 'shift']);

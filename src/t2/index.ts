@@ -8,22 +8,24 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
   if (!head.next) {
     return head;
   }
-  let next = head.next;
-  let cur = head;
+  const res = new ListNode(0, head);
+  let prev = res;
 
-  while (next?.next) {
-    while (cur.val !== next.val) {
-      cur = next;
-      next = next.next!;
+  while (prev.next && prev.next.next) {
+    if (prev.next.val === prev.next.next.val) {
+      const num = prev.next.val;
+      while (prev.next && prev.next.val === num) {
+        prev.next = prev.next.next;
+      }
+    } else {
+      prev = prev.next;
     }
-    cur.next = next.next!;
-    next = next.next!;
   }
 
-  return head;
+  return res.next;
 }
 
-// deleteDuplicates(node1);
+deleteDuplicates(node1);
 deleteDuplicates(node2);
 deleteDuplicates(node3);
 deleteDuplicates(node4);
