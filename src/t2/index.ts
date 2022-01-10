@@ -1,4 +1,4 @@
-import { node1, node2, node3, node4, node5 } from './../data/node.data';
+import { node1, node2, node3, node4, node5 } from '../data/list.node.data';
 import ListNode from '../utils/ListNode';
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {

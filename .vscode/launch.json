@@ -6,7 +6,7 @@
       "type": "node",
       "request": "launch",
       "runtimeArgs": ["-r", "ts-node/register"],
-      "program": "${workspaceRoot}/src/t2/index.ts",
+      "program": "${workspaceRoot}/src/t6/index.ts",
       "args": ["${relativeFile}"],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector"

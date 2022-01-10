@@ -1,5 +1,5 @@
 import ListNode from '../utils/ListNode';
-import { node1, node2, node3, node4, node5 } from '../data/node.data';
+import { node1, node2, node3, node4, node5 } from '../data/list.node.data';
 
 function reverseList(head: ListNode | null): ListNode | null {
   if (!head) {
