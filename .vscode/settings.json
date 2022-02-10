@@ -1,3 +1,8 @@
 {
-  "cSpell.words": ["nums"]
+  "cSpell.words": ["nums"],
+  "files.associations": {
+    "iosfwd": "cpp",
+    "string": "cpp",
+    "vector": "cpp"
+  }
 }
