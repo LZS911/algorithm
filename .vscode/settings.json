@@ -7,6 +7,9 @@
     "map": "cpp",
     "deque": "cpp",
     "functional": "cpp",
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "__locale": "cpp",
+    "__string": "cpp",
+    "string_view": "cpp"
   }
 }
