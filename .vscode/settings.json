@@ -10,6 +10,8 @@
     "unordered_map": "cpp",
     "__locale": "cpp",
     "__string": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "algorithm": "cpp",
+    "iterator": "cpp"
   }
 }
