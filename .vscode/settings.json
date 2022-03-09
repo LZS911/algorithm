@@ -12,6 +12,8 @@
     "__string": "cpp",
     "string_view": "cpp",
     "algorithm": "cpp",
-    "iterator": "cpp"
+    "iterator": "cpp",
+    "__config": "cpp",
+    "__nullptr": "cpp"
   }
 }
