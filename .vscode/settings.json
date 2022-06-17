@@ -17,6 +17,7 @@
     "__nullptr": "cpp",
     "queue": "cpp",
     "unordered_set": "cpp",
-    "__hash_table": "cpp"
+    "__hash_table": "cpp",
+    "numeric": "cpp"
   }
 }
