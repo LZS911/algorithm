@@ -19,5 +19,6 @@
     "unordered_set": "cpp",
     "__hash_table": "cpp",
     "numeric": "cpp"
-  }
+  },
+  "rust-analyzer.linkedProjects": ["./src/t130/Cargo.toml"]
 }
