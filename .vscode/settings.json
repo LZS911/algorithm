@@ -20,5 +20,5 @@
     "__hash_table": "cpp",
     "numeric": "cpp"
   },
-  "rust-analyzer.linkedProjects": ["./src/t159/Cargo.toml"]
+  "rust-analyzer.linkedProjects": ["./src/t166/Cargo.toml"]
 }
